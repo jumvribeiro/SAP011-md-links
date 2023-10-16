@@ -1,8 +1,23 @@
 {
-  "name": "md-links",
+  "name": "md-links-jumvribeiro",
   "version": "0.1.0",
+  "description": "Quatro projeto - Laboratoria",
+  "keywords": [
+    "node",
+    "markdown",
+    "cli"
+  ],
+  "author": "Julia Ribeiro",
   "engines": {
     "node": ">=16.x"
+  },
+  "bin":{
+    "mdLinks": ".src/cli.js"
+  }, 
+  "scripts": {
+    "test": "jest--verbose --coverage",
+    "eslint": "eslint --ext .js src/ test/",
+    "pretest": "npm run eslint"
   },
   "bootcamp": {
     "createdAt": "2023-09-20T11:50:43.165Z",
@@ -10,6 +25,9 @@
     "commit": "a5360f78b634be4f14eaea996ee4c7afc85a2f48"
   },
   "dependencies": {
-    "chalk": "^4.1.2"
+    "@babel/cli": "^7.21.0",
+    "chalk": "^4.1.2",
+    "eslint": "^8.37.0",
+    "jest": "^29.5.0"
   }
 }
