@@ -1,4 +1,5 @@
 #!/usr/bin/env node
+
 const {mdLinks} = require('./index.js');
 const chalk = require('chalk');
 const {showStatsAndValidate, showStats, showValidate, showWhithoutFlags} = require('./show-logs.js');

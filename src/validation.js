@@ -43,7 +43,7 @@ function validatedList (listOfLinks) {
   return checkStatus(listOfLinks.map((targetLink) => targetLink.href))
   .then((status) => {
     return listOfLinks.map((objeto, indice) => ({
-      ..objeto,
+      ...objeto,
       status: status[indice]
     }));
   });
