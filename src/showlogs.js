@@ -1,5 +1,6 @@
 const chalk = require('chalk');
 
+
 function showStatsAndValidate(response) {
     if (Array.isArray(response)) {
       response.map(({totalLinks, uniqueLinks, brokenLinks}) => {

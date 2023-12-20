@@ -8,8 +8,8 @@ Estruturas condicionais e repetitivas (https://curriculum.laboratoria.la/pt/topi
 
 Tomando decisões no seu código — condicionais - MDN (https://developer.mozilla.org/pt-BR/docs/Learn/JavaScript/Building_blocks/conditionals)
 
-Github errado (https://github.com/testingerror)
+[Github errado](https://github.com/testingerror)
 
-Canva not found (http://www.canva.com.br.br/)
+[Canva not found](http://www.canva.com.br.br/)
 
 
